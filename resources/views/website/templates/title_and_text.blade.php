@@ -47,7 +47,7 @@
         </div>
         <div class="item">
             <div class="banner-div">
-                <img src="{{ asset('images/home/slider4.jpg') }}" class="img-fluid" width="100%"/>
+                <img src="{{ asset('images/home/slider5.jpg') }}" class="img-fluid" width="100%"/>
                 <div class="banner-content">
                     <h1 class="text-white">FENGON 580</h1>
                     <p class="text-white">
