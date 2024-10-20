@@ -1,0 +1,86 @@
+@import "variables";
+@font-face {
+    font-family: 'NouvelR';
+    src: url('../fonts/NouvelR-Light.woff2') format('woff2'),
+    url('../fonts/NouvelR-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NouvelR Book';
+    src: url('../fonts/NouvelR-Book.woff2') format('woff2'),
+    url('../fonts/NouvelR-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NouvelR';
+    src: url('../fonts/NouvelR-Regular.woff2') format('woff2'),
+    url('../fonts/NouvelR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NouvelR';
+    src: url('../fonts/NouvelR-Semibold.woff2') format('woff2'),
+    url('../fonts/NouvelR-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NouvelR';
+    src: url('../fonts/NouvelR-Bold.woff2') format('woff2'),
+    url('../fonts/NouvelR-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+//@font-face {
+//    font-family: 'NouvelR';
+//    src: url('../fonts/NouvelR-Extrabold.woff2') format('woff2'),
+//    url('../fonts/NouvelR-Extrabold.woff') format('woff');
+//    font-weight: bold;
+//    font-style: normal;
+//    font-display: swap;
+//}
+
+@font-face {
+    font-family: 'DIN Condensed';
+    src: url('../fonts/DINCondensed-Bold.woff2') format('woff2'),
+    url('../fonts/DINCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.nouvelr-font {
+    font-family: 'NouvelR'!important;
+}
+.font-light {
+    font-weight: 300;
+}
+.font-regular {
+    font-weight: normal;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.font-bold {
+    font-weight: bold;
+}
+
+
+.din-condensed {
+    font-family: 'DIN Condensed';
+}
+
+
+
+

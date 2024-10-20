@@ -16,7 +16,9 @@
 		@endforeach
 		@endif
 	</title>
-	<link href="{{asset('css/app.css')}}" rel="stylesheet">
+    <link href="{{asset('css/owl.theme.default.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/app.css')}}" rel="stylesheet">
 	<favicon-component></favicon-component>
 </head>
 
@@ -35,6 +37,13 @@
 	</div>
 	<!-- Body main wrapper end -->
 	@stack('scripts')
+
+    <script src="{{asset('js/jquery-3.6.0.js')}}"></script>
+    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('js/owl.carousel.js')}}"></script>
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('js/script.js')}}"></script>
+
 </body>
 
 </html>
