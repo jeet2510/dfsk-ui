@@ -12376,11 +12376,6 @@ ul, li {
   margin: 0;
 }
 
-.main-header .header-main-div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .main-header .header-main-div .header-menu .dropdown .btn {
   font-size: 18px;
   padding: 0;
