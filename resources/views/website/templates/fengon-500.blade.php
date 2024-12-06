@@ -122,25 +122,26 @@
             </div>
             <div class="col-md-6 mb-4">
                 <div class="ftr-box">
-                    <h4 class="nouvelr-font">Room for Everyone</h4>
+                    <h4 class="nouvelr-font">Power Meets Efficiency</h4>
                     <p class="nouvelr-font">
-                        Whether you're packing up the family or heading out with friends, the FENGON 500’s spacious interior has you covered. Stretch out with plenty of legroom, enjoy the wide-open views from the panoramic sunroof, and make use of flexible seating options that adapt to your needs.
+                        The FENGON 500’s fuel-efficient 1.5L Turbo engine gives you that smooth, satisfying acceleration while keeping your trips to the pump to a minimum. It's the perfect balance of performance and economy.
                     </p>
                 </div>
             </div>
             <div class="col-md-6 mb-4">
                 <div class="ftr-box">
-                    <h4 class="nouvelr-font">Room for Everyone</h4>
+                    <h4 class="nouvelr-font">Step Inside Your Comfort Zone</h4>
                     <p class="nouvelr-font">
-                        Whether you're packing up the family or heading out with friends, the FENGON 500’s spacious interior has you covered. Stretch out with plenty of legroom, enjoy the wide-open views from the panoramic sunroof, and make use of flexible seating options that adapt to your needs.
+                        Slide into the FENGON 500 and get ready to sink into pure comfort. With its soft leather seats and premium materials, every ride feels like a first-class experience. Ergonomically designed for comfort, this is your go-to for those daily commutes or weekend adventures in style.
                     </p>
                 </div>
             </div>
             <div class="col-md-6 mb-4">
                 <div class="ftr-box">
-                    <h4 class="nouvelr-font">Room for Everyone</h4>
+                    <h4 class="nouvelr-font">Tech That Makes Life Easier</h4>
                     <p class="nouvelr-font">
-                        Whether you're packing up the family or heading out with friends, the FENGON 500’s spacious interior has you covered. Stretch out with plenty of legroom, enjoy the wide-open views from the panoramic sunroof, and make use of flexible seating options that adapt to your needs.
+                        Stay ahead of the curve with smart tech designed to simplify your life. With features such as parking assist and keyless start,  the FENGON 500 is packed with innovation that keeps you in control without breaking a sweat. It’s advanced, yet effortless.
+
                     </p>
                 </div>
             </div>
