@@ -1,5 +1,5 @@
 @foreach($data->values as $value)
-<section class="home-slider-section">
+<!--<section class="home-slider-section">
     <div class="home-carousel line-dot cr-arrow owl-carousel owl-theme">
         <div class="item">
             <div class="banner-div">
@@ -57,6 +57,26 @@
             </div>
         </div>
     </div>
+</section>-->
+
+<section class="home-slider-section">
+    <div class="home-banner-slider line-dot cr-arrow owl-carousel owl-theme">
+        <div class="item">
+            <div class="banner-div">
+                <img src="{{ asset('images/home/h-1.jpg') }}" class="img-fluid" width="100%"/>
+            </div>
+        </div>
+        <div class="item">
+            <div class="banner-div">
+                <img src="{{ asset('images/home/h-2.jpg') }}" class="img-fluid" width="100%"/>
+            </div>
+        </div>
+        <div class="item">
+            <div class="banner-div">
+                <img src="{{ asset('images/home/h-3.jpg') }}" class="img-fluid" width="100%"/>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="explore-range-section">
@@ -80,163 +100,163 @@
                 </div>
                 <div class="explore-body">
                     <div class="tab-content">
-                    <div class="tab-pane active" id="SUV-Tab">
-                        <div class="explore-img-div">
-                            <div class="home-carousel line-dot cr-arrow owl-carousel owl-theme">
-                                <div class="item">
-                                    <div class="explore-div">
-                                        <div class="explore-img-div">
-                                            <h1>FENGON 500</h1>
-                                            <img src="{{ asset('images/home/explore-range/suv/fengon500.png') }}" class="img-fluid" width="100%"/>
+                        <div class="tab-pane active" id="SUV-Tab">
+                            <div class="explore-img-div">
+                                <div class="home-carousel line-dot cr-arrow owl-carousel owl-theme">
+                                    <div class="item">
+                                        <div class="explore-div">
+                                            <div class="explore-img-div">
+                                                <h1>FENGON 500</h1>
+                                                <img src="{{ asset('images/home/explore-range/suv/fengon500.png') }}" class="img-fluid" width="100%"/>
+                                            </div>
+                                            <div class="explore-btn-div">
+                                                <a href="#" class="btn btn-dark cs-btn">
+                                                    Book Test Drive
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark cs-btn">
+                                                    Learn More
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div class="explore-btn-div">
-                                            <a href="#" class="btn btn-dark cs-btn">
-                                                Book Test Drive
-                                            </a>
-                                            <a href="#" class="btn btn-outline-dark cs-btn">
-                                                Learn More
-                                            </a>
+                                    </div>
+                                    <div class="item">
+                                        <div class="explore-div">
+                                            <div class="explore-img-div">
+                                                <h1>FENGON 580</h1>
+                                                <img src="{{ asset('images/home/explore-range/suv/fengon580.png') }}" class="img-fluid" width="100%"/>
+                                            </div>
+                                            <div class="explore-btn-div">
+                                                <a href="#" class="btn btn-dark cs-btn">
+                                                    Book Test Drive
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark cs-btn">
+                                                    Learn More
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="explore-div">
+                                            <div class="explore-img-div">
+                                                <h1>FENGON 600</h1>
+                                                <img src="{{ asset('images/home/explore-range/suv/fengon600.png') }}" class="img-fluid" width="100%"/>
+                                            </div>
+                                            <div class="explore-btn-div">
+                                                <a href="#" class="btn btn-dark cs-btn">
+                                                    Book Test Drive
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark cs-btn">
+                                                    Learn More
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="explore-div">
+                                            <div class="explore-img-div">
+                                                <h1>FENGON IX5</h1>
+                                                <img src="{{ asset('images/home/explore-range/suv/fengonix5.png') }}" class="img-fluid" width="100%"/>
+                                            </div>
+                                            <div class="explore-btn-div">
+                                                <a href="#" class="btn btn-dark cs-btn">
+                                                    Book Test Drive
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark cs-btn">
+                                                    Learn More
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="explore-div">
+                                            <div class="explore-img-div">
+                                                <h1>FENGON IX7</h1>
+                                                <img src="{{ asset('images/home/explore-range/suv/fengonix7.png') }}" class="img-fluid" width="100%"/>
+                                            </div>
+                                            <div class="explore-btn-div">
+                                                <a href="#" class="btn btn-dark cs-btn">
+                                                    Book Test Drive
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark cs-btn">
+                                                    Learn More
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="explore-div">
-                                        <div class="explore-img-div">
-                                            <h1>FENGON 580</h1>
-                                            <img src="{{ asset('images/home/explore-range/suv/fengon580.png') }}" class="img-fluid" width="100%"/>
-                                        </div>
-                                        <div class="explore-btn-div">
-                                            <a href="#" class="btn btn-dark cs-btn">
-                                                Book Test Drive
-                                            </a>
-                                            <a href="#" class="btn btn-outline-dark cs-btn">
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="explore-div">
-                                        <div class="explore-img-div">
-                                            <h1>FENGON 600</h1>
-                                            <img src="{{ asset('images/home/explore-range/suv/fengon600.png') }}" class="img-fluid" width="100%"/>
-                                        </div>
-                                        <div class="explore-btn-div">
-                                            <a href="#" class="btn btn-dark cs-btn">
-                                                Book Test Drive
-                                            </a>
-                                            <a href="#" class="btn btn-outline-dark cs-btn">
-                                                Learn More
-                                            </a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Commercial-Tab">
+                            <div class="explore-img-div">
+                                <div class="home-carousel line-dot cr-arrow owl-carousel owl-theme">
+                                    <div class="item">
+                                        <div class="explore-div">
+                                            <div class="explore-img-div">
+                                                <h1>C31</h1>
+                                                <img src="{{ asset('images/home/explore-range/commercial/c31.png') }}" class="img-fluid" width="100%"/>
+                                            </div>
+                                            <div class="explore-btn-div">
+                                                <a href="#" class="btn btn-dark cs-btn">
+                                                    Book Test Drive
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark cs-btn">
+                                                    Learn More
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="item">
-                                    <div class="explore-div">
-                                        <div class="explore-img-div">
-                                            <h1>FENGON IX5</h1>
-                                            <img src="{{ asset('images/home/explore-range/suv/fengonix5.png') }}" class="img-fluid" width="100%"/>
-                                        </div>
-                                        <div class="explore-btn-div">
-                                            <a href="#" class="btn btn-dark cs-btn">
-                                                Book Test Drive
-                                            </a>
-                                            <a href="#" class="btn btn-outline-dark cs-btn">
-                                                Learn More
-                                            </a>
+                                    <div class="item">
+                                        <div class="explore-div">
+                                            <div class="explore-img-div">
+                                                <h1>C32</h1>
+                                                <img src="{{ asset('images/home/explore-range/commercial/c32.png') }}" class="img-fluid" width="100%"/>
+                                            </div>
+                                            <div class="explore-btn-div">
+                                                <a href="#" class="btn btn-dark cs-btn">
+                                                    Book Test Drive
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark cs-btn">
+                                                    Learn More
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="item">
-                                    <div class="explore-div">
-                                        <div class="explore-img-div">
-                                            <h1>FENGON IX7</h1>
-                                            <img src="{{ asset('images/home/explore-range/suv/fengonix7.png') }}" class="img-fluid" width="100%"/>
+                                    <div class="item">
+                                        <div class="explore-div">
+                                            <div class="explore-img-div">
+                                                <h1>C35</h1>
+                                                <img src="{{ asset('images/home/explore-range/commercial/c35.png') }}" class="img-fluid" width="100%"/>
+                                            </div>
+                                            <div class="explore-btn-div">
+                                                <a href="#" class="btn btn-dark cs-btn">
+                                                    Book Test Drive
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark cs-btn">
+                                                    Learn More
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div class="explore-btn-div">
-                                            <a href="#" class="btn btn-dark cs-btn">
-                                                Book Test Drive
-                                            </a>
-                                            <a href="#" class="btn btn-outline-dark cs-btn">
-                                                Learn More
-                                            </a>
+                                    </div>
+                                    <div class="item">
+                                        <div class="explore-div">
+                                            <div class="explore-img-div">
+                                                <h1>K01H</h1>
+                                                <img src="{{ asset('images/home/explore-range/commercial/k01h.png') }}" class="img-fluid" width="100%"/>
+                                            </div>
+                                            <div class="explore-btn-div">
+                                                <a href="#" class="btn btn-dark cs-btn">
+                                                    Book Test Drive
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark cs-btn">
+                                                    Learn More
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="Commercial-Tab">
-                        <div class="explore-img-div">
-                            <div class="home-carousel line-dot cr-arrow owl-carousel owl-theme">
-                                <div class="item">
-                                    <div class="explore-div">
-                                        <div class="explore-img-div">
-                                            <h1>C31</h1>
-                                            <img src="{{ asset('images/home/explore-range/commercial/c31.png') }}" class="img-fluid" width="100%"/>
-                                        </div>
-                                        <div class="explore-btn-div">
-                                            <a href="#" class="btn btn-dark cs-btn">
-                                                Book Test Drive
-                                            </a>
-                                            <a href="#" class="btn btn-outline-dark cs-btn">
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="explore-div">
-                                        <div class="explore-img-div">
-                                            <h1>C32</h1>
-                                            <img src="{{ asset('images/home/explore-range/commercial/c32.png') }}" class="img-fluid" width="100%"/>
-                                        </div>
-                                        <div class="explore-btn-div">
-                                            <a href="#" class="btn btn-dark cs-btn">
-                                                Book Test Drive
-                                            </a>
-                                            <a href="#" class="btn btn-outline-dark cs-btn">
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="explore-div">
-                                        <div class="explore-img-div">
-                                            <h1>C35</h1>
-                                            <img src="{{ asset('images/home/explore-range/commercial/c35.png') }}" class="img-fluid" width="100%"/>
-                                        </div>
-                                        <div class="explore-btn-div">
-                                            <a href="#" class="btn btn-dark cs-btn">
-                                                Book Test Drive
-                                            </a>
-                                            <a href="#" class="btn btn-outline-dark cs-btn">
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="explore-div">
-                                        <div class="explore-img-div">
-                                            <h1>K01H</h1>
-                                            <img src="{{ asset('images/home/explore-range/commercial/k01h.png') }}" class="img-fluid" width="100%"/>
-                                        </div>
-                                        <div class="explore-btn-div">
-                                            <a href="#" class="btn btn-dark cs-btn">
-                                                Book Test Drive
-                                            </a>
-                                            <a href="#" class="btn btn-outline-dark cs-btn">
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -251,39 +271,39 @@
     <div class="avdvantage-list-div">
         <div class="container">
             <div class="row">
-            <div class="col-md-3">
-                <div class="advantage-box">
-                    <span>1</span>
-                    <p>
-                        Luxuriously crafted with premium materials, offering a spacious and lavish seating experience.
-                    </p>
+                <div class="col-md-3">
+                    <div class="advantage-box">
+                        <span>1</span>
+                        <p>
+                            Luxuriously crafted with premium materials, offering a spacious and lavish seating experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="advantage-box">
+                        <span>2</span>
+                        <p>
+                            Upgrade your adventures with DFSK smart SUVs, combining strength and agility.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="advantage-box">
+                        <span>3</span>
+                        <p>
+                            DFSK vehicles are elegantly designed, offering ample luggage space and comfortable seating - perfect for road trips and family travel.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="advantage-box">
+                        <span>4</span>
+                        <p>
+                            Smart is the new standard with DFSK, where keyless entry and climate control redefine intelligence in vehicles
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="advantage-box">
-                    <span>2</span>
-                    <p>
-                        Upgrade your adventures with DFSK smart SUVs, combining strength and agility.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="advantage-box">
-                    <span>3</span>
-                    <p>
-                        DFSK vehicles are elegantly designed, offering ample luggage space and comfortable seating - perfect for road trips and family travel.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="advantage-box">
-                    <span>4</span>
-                    <p>
-                        Smart is the new standard with DFSK, where keyless entry and climate control redefine intelligence in vehicles
-                    </p>
-                </div>
-            </div>
-        </div>
         </div>
     </div>
 </section>
@@ -317,8 +337,9 @@
     </div>
 
 </section>
-
+<h1 class="nouvelr-font section-title py-4">Find a showroom</h1>
 <section class="map-section">
+
     <div class="accordion map-accordion-box accordion-flush" id="mapaccordion">
         <div class="accordion-item">
             <h2 class="accordion-header" id="map-headingOne">

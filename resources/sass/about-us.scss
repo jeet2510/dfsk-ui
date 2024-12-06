@@ -1,0 +1,125 @@
+.ai-title {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    h2 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+.about-img-box {
+    .about-content {
+        background-color: #000000;
+        padding: 40px 80px;
+        max-width: 1140px;
+        width: 100%;
+        position: relative;
+        margin: -100px auto 70px;
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #FFFFFF;
+            margin-bottom: 15px;
+        }
+    }
+}
+.cc-content-div {
+    h4 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        color: #000000;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+}
+.personal-assistance-section {
+    background-image: url(../images/about-us/about-bg.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    h2 {
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 54px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .pa-btn-div {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 50px;
+        .btn {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            padding: 25px 20px;
+            border-radius: 0;
+            max-width: 430px;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ai-title {
+        top: 10px;
+        h2 {
+            font-size: 24px;
+            line-height: 34px;
+        }
+    }
+    .about-img-box {
+        .about-content {
+            padding: 30px 15px;
+            margin: -10px auto 50px;
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .cc-content-div {
+        h4 {
+            font-size: 24px;
+            line-height: 34px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .personal-assistance-section {
+        h2 {
+            font-size: 34px;
+            line-height: 44px;
+        }
+    }
+    .personal-assistance-section {
+        padding: 40px 0;
+        .pa-btn-div {
+            flex-wrap: wrap;
+            .btn {
+                font-size: 14px;
+                line-height: 22px;
+                padding: 10px;
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+            }
+        }
+    }
+}

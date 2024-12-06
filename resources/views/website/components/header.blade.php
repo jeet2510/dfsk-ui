@@ -32,11 +32,11 @@
                                                        Models
                                                    </a>
                                                </li>
-                                               <li><a href="#">About Us</a></li>
+                                               <li><a href="{{ url('/about-us') }}">About Us</a></li>
                                                <li><a href="#">Blogs</a></li>
-                                               <li><a href="#">Aftersales</a></li>
+                                               <li><a href="{{ url('/after-sales') }}">Aftersales</a></li>
                                                <li><a href="#">Fleets</a></li>
-                                               <li><a href="#">Offers</a></li>
+                                               <li><a href="{{ url('/offers') }}">Offers</a></li>
                                                <li><a href="#">Contact Us</a></li>
                                            </ul>
                                        </div>
@@ -77,7 +77,7 @@
                                                        <div class="row">
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
-                                                                   <a href="#">
+                                                                   <a href="{{ url('/fengon-500') }}">
                                                                        <img src="{{ asset('images/menu-img/fengon500.png') }}" class="img-fluid" width="100%"/>
                                                                        <p>
                                                                            Fengon 500
@@ -87,7 +87,7 @@
                                                            </div>
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
-                                                                   <a href="#">
+                                                                   <a href="{{ url('/fengon-580') }}">
                                                                        <img src="{{ asset('images/menu-img/fengon580.png') }}" class="img-fluid" width="100%"/>
                                                                        <p>
                                                                            Fengon 580
@@ -97,7 +97,7 @@
                                                            </div>
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
-                                                                   <a href="#">
+                                                                   <a href="{{ url('/fengon-600') }}">
                                                                        <img src="{{ asset('images/menu-img/fengon600.png') }}" class="img-fluid" width="100%"/>
                                                                        <p>
                                                                            Fengon 600
@@ -107,7 +107,7 @@
                                                            </div>
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
-                                                                   <a href="#">
+                                                                   <a href="{{ url('/fengon-ix5') }}">
                                                                        <img src="{{ asset('images/menu-img/fengonix5.png') }}" class="img-fluid" width="100%"/>
                                                                        <p>
                                                                            Fengon ix5
@@ -117,7 +117,7 @@
                                                            </div>
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
-                                                                   <a href="#">
+                                                                   <a href="{{ url('/fengon-ix7') }}">
                                                                        <img src="{{ asset('images/menu-img/fengonix7.png') }}" class="img-fluid" width="100%"/>
                                                                        <p>
                                                                            Fengon ix7
@@ -134,7 +134,7 @@
                                                        <div class="row">
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
-                                                                   <a href="#">
+                                                                   <a href="{{ url('/cv-c31') }}">
                                                                        <img src="{{ asset('images/menu-img/dfskc31.png') }}" class="img-fluid" width="100%"/>
                                                                        <p>
                                                                            DFSK C31
@@ -144,7 +144,7 @@
                                                            </div>
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
-                                                                   <a href="#">
+                                                                   <a href="{{ url('/cv-c35') }}">
                                                                        <img src="{{ asset('images/menu-img/dfskc35.png') }}" class="img-fluid" width="100%"/>
                                                                        <p>
                                                                            DFSK C35
@@ -154,7 +154,7 @@
                                                            </div>
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
-                                                                   <a href="#">
+                                                                   <a href="{{ url('/cv-c32') }}">
                                                                        <img src="{{ asset('images/menu-img/dfskc32.png') }}" class="img-fluid" width="100%"/>
                                                                        <p>
                                                                            DFSK C32
@@ -164,7 +164,7 @@
                                                            </div>
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
-                                                                   <a href="#">
+                                                                   <a href="{{ url('/k01h') }}">
                                                                        <img src="{{ asset('images/menu-img/dfskk01h.png') }}" class="img-fluid" width="100%"/>
                                                                        <p>
                                                                            DFSK K01H
