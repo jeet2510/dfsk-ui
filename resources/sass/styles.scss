@@ -257,6 +257,7 @@ ul,li {
 @media screen and (min-width: 1200px) {
     .container-fluid {
         padding: 0 60px;
+        max-width: 1440px;
     }
 }
 @media screen and (max-width: 991px) {
