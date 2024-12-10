@@ -588,7 +588,7 @@
             <div class="col-md-6">
                 <div class="exp-more-card mb-4">
 
-                    <img src="{{ asset('images/fengon-ix5/post-1.jpg') }}" class="img-fluid" width="100%"/>
+                    <img src="{{ asset('images/fengon-ix7/post-1.jpg') }}" class="img-fluid" width="100%"/>
                     <div class="exp-content">
                         <h4>Fengon 500</h4>
                         <a href="#" class="btn btn-outline-light">
@@ -599,9 +599,9 @@
             </div>
             <div class="col-md-6">
                 <div class="exp-more-card mb-4">
-                    <img src="{{ asset('images/fengon-ix5/post-2.jpg') }}" class="img-fluid" width="100%"/>
+                    <img src="{{ asset('images/fengon-ix7/post-2.jpg') }}" class="img-fluid" width="100%"/>
                     <div class="exp-content">
-                        <h4>Fengon 580</h4>
+                        <h4>Fengon 600</h4>
                         <a href="#" class="btn btn-outline-light">
                             Learn More
                         </a>

@@ -108,17 +108,17 @@
     </div>
 </section>
 
-<h1 class="nouvelr-font section-title pb-4">Find a showroom</h1>
+<h1 class="nouvelr-font section-title py-4">Find a showroom</h1>
 <section class="map-section bg-black">
 
     <div class="accordion map-accordion-box accordion-flush" id="mapaccordion">
         <div class="accordion-item">
             <h2 class="accordion-header" id="map-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#map-collapseOne" aria-expanded="false" aria-controls="map-collapseOne">
+                <button class="accordion-button collapsed" onclick="checkIframe(1)" type="button" data-bs-toggle="collapse" data-bs-target="#map-collapseOne" aria-expanded="true" aria-controls="map-collapseOne">
                     DFSK Deira
                 </button>
             </h2>
-            <div id="map-collapseOne" class="accordion-collapse collapse" aria-labelledby="map-headingOne" data-bs-parent="#mapaccordion">
+            <div id="map-collapseOne" class="accordion-collapse collapse show" aria-labelledby="map-headingOne" data-bs-parent="#mapaccordion">
                 <div class="accordion-body">
                     <div class="map-address-box">
                         <div class="mb-4">
@@ -158,7 +158,7 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="map-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#map-collapseTwo" aria-expanded="false" aria-controls="map-collapseTwo">
+                <button class="accordion-button" type="button" onclick="checkIframe(2)" data-bs-toggle="collapse" data-bs-target="#map-collapseTwo" aria-expanded="false" aria-controls="map-collapseTwo">
                     DFSK Khalidiya
                 </button>
             </h2>
@@ -202,7 +202,7 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="map-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#map-collapseThree" aria-expanded="false" aria-controls="map-collapseThree">
+                <button class="accordion-button collapsed" onclick="checkIframe(3)" type="button" data-bs-toggle="collapse" data-bs-target="#map-collapseThree" aria-expanded="false" aria-controls="map-collapseThree">
                     DFSK Musaffah
                 </button>
             </h2>
@@ -246,7 +246,7 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="map-headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#map-collapseFour" aria-expanded="false" aria-controls="map-collapseFour">
+                <button class="accordion-button collapsed" onclick="checkIframe(4)" type="button" data-bs-toggle="collapse" data-bs-target="#map-collapseFour" aria-expanded="false" aria-controls="map-collapseFour">
                     DFSK  Ras Al Khaimah
                 </button>
             </h2>
@@ -291,7 +291,19 @@
 
     </div>
     <div class="map-box" style="width: 100%">
-        <iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Hili%20Tower%20B+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe>
+        <div class="map1 map-div">
+            <iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28866.28890950208!2d55.334151!3d25.260959!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d00079674f1%3A0x74ba90d91a5bae13!2sSERES%20Dubai%20-%20Deira%20Showroom%20-%20Green%20Motors!5e0!3m2!1sen!2sin!4v1733843649184!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <div class="map2 map-div d-none">
+            <iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29050.90109531895!2d54.35111!3d24.472889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e67808054c74b%3A0x45489df9f5beeacd!2sDFSK%20Abu%20Dhabi%20-%20Khalidiyah%20Showroom%20-%20Green%20Motors!5e0!3m2!1sen!2sin!4v1733843599552!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="map3 map-div d-none">
+            <iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29050.90109531895!2d54.35111!3d24.472889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e67808054c74b%3A0x45489df9f5beeacd!2sDFSK%20Abu%20Dhabi%20-%20Khalidiyah%20Showroom%20-%20Green%20Motors!5e0!3m2!1sen!2sin!4v1733843599552!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="map4 map-div d-none">
+            <iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28756.044670081883!2d55.866958!3d25.720789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef675770a37280b%3A0xd5174a61d113c911!2sDFSK%20Ras%20Al%20Khaimah%20Showroom%20-%20Green%20Motors!5e0!3m2!1sen!2sin!4v1733843561366!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 </section>
 

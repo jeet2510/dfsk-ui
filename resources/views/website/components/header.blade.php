@@ -35,7 +35,7 @@
                                                <li><a href="{{ url('/about-us') }}">About Us</a></li>
                                                <li><a href="#">Blogs</a></li>
                                                <li><a href="{{ url('/after-sales') }}">Aftersales</a></li>
-                                               <li><a href="#">Fleets</a></li>
+<!--                                               <li><a href="#">Fleets</a></li>-->
                                                <li><a href="{{ url('/offers') }}">Offers</a></li>
                                                <li><a href="#">Contact Us</a></li>
                                            </ul>
@@ -85,7 +85,7 @@
                                                                    </a>
                                                                </div>
                                                            </div>
-                                                           <div class="col-md-6">
+<!--                                                           <div class="col-md-6">
                                                                <div class="menu-box">
                                                                    <a href="{{ url('/fengon-580') }}">
                                                                        <img src="{{ asset('images/menu-img/fengon580.png') }}" class="img-fluid" width="100%"/>
@@ -94,7 +94,7 @@
                                                                        </p>
                                                                    </a>
                                                                </div>
-                                                           </div>
+                                                           </div>-->
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
                                                                    <a href="{{ url('/fengon-600') }}">
@@ -105,7 +105,7 @@
                                                                    </a>
                                                                </div>
                                                            </div>
-                                                           <div class="col-md-6">
+<!--                                                           <div class="col-md-6">
                                                                <div class="menu-box">
                                                                    <a href="{{ url('/fengon-ix5') }}">
                                                                        <img src="{{ asset('images/menu-img/fengonix5.png') }}" class="img-fluid" width="100%"/>
@@ -114,7 +114,7 @@
                                                                        </p>
                                                                    </a>
                                                                </div>
-                                                           </div>
+                                                           </div>-->
                                                            <div class="col-md-6">
                                                                <div class="menu-box">
                                                                    <a href="{{ url('/fengon-ix7') }}">
@@ -186,7 +186,7 @@
                        </div>
                        <div class="col-md-2">
                            <div class="header-logo text-center">
-                               <a href="#">
+                               <a href="{{ url('/') }}">
                                    <img src="{{ asset('images/logo.png') }}" class="img-fluid" alt="logo"/>
                                </a>
                            </div>

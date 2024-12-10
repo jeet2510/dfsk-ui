@@ -44,6 +44,13 @@
     <script src="{{asset('js/owl.carousel.min.js')}}"></script>
     <script src="{{asset('js/script.js')}}"></script>
 
+
+    <script>
+        function checkIframe(counter) {
+            $('.map-div').addClass('d-none')
+            $(`.map${counter}`).removeClass('d-none')
+        }
+    </script>
 </body>
 
 </html>

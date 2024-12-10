@@ -443,7 +443,7 @@
 
         <div class="row">
             <div class="col-md-12">
-                <h1 class="nouvelr-font section-title mb-5">FENGON 580 - Luxury 2 <br>Specifications</h1>
+                <h1 class="nouvelr-font section-title mb-5">FENGON 600 - M1 <br>Specifications</h1>
             </div>
             <div class="col-6 col-sm-6 col-md-3 mb-3">
                 <div class="specification-box">
@@ -599,7 +599,7 @@
                 <div class="exp-more-card mb-4">
                     <img src="{{ asset('images/fengon-600/f50-white.jpg') }}" class="img-fluid" width="100%"/>
                     <div class="exp-content">
-                        <h4>Fengon 600</h4>
+                        <h4>Fengon 500</h4>
                         <a href="#" class="btn btn-outline-light">
                             Learn More
                         </a>
@@ -610,7 +610,7 @@
                 <div class="exp-more-card mb-4">
                     <img src="{{ asset('images/fengon-500/post-2.png') }}" class="img-fluid" width="100%"/>
                     <div class="exp-content">
-                        <h4>Fengon 580</h4>
+                        <h4>Fengon IX7</h4>
                         <a href="#" class="btn btn-outline-light">
                             Learn More
                         </a>

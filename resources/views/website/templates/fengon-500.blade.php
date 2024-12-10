@@ -318,7 +318,7 @@
                 <div class="exp-more-card mb-4">
                     <img src="{{ asset('images/fengon-500/post-2.png') }}" class="img-fluid" width="100%"/>
                     <div class="exp-content">
-                        <h4>Fengon 580</h4>
+                        <h4>Fengon IX7</h4>
                         <a href="#" class="btn btn-outline-light">
                             Learn More
                         </a>
