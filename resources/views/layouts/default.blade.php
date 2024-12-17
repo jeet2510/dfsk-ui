@@ -51,6 +51,8 @@
             $(`.map${counter}`).removeClass('d-none')
         }
     </script>
+
+
 </body>
 
 </html>

@@ -9,6 +9,195 @@
 
                                <nav class="navbar">
                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                       <span class="menu-line-btn">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21 12C21 12.1989 20.921 12.3897 20.7803 12.5303C20.6397 12.671 20.4489 12.75 20.25 12.75H3.75C3.55109 12.75 3.36032 12.671 3.21967 12.5303C3.07902 12.3897 3 12.1989 3 12C3 11.8011 3.07902 11.6103 3.21967 11.4697C3.36032 11.329 3.55109 11.25 3.75 11.25H20.25C20.4489 11.25 20.6397 11.329 20.7803 11.4697C20.921 11.6103 21 11.8011 21 12ZM3.75 6.75H20.25C20.4489 6.75 20.6397 6.67098 20.7803 6.53033C20.921 6.38968 21 6.19891 21 6C21 5.80109 20.921 5.61032 20.7803 5.46967C20.6397 5.32902 20.4489 5.25 20.25 5.25H3.75C3.55109 5.25 3.36032 5.32902 3.21967 5.46967C3.07902 5.61032 3 5.80109 3 6C3 6.19891 3.07902 6.38968 3.21967 6.53033C3.36032 6.67098 3.55109 6.75 3.75 6.75ZM20.25 17.25H3.75C3.55109 17.25 3.36032 17.329 3.21967 17.4697C3.07902 17.6103 3 17.8011 3 18C3 18.1989 3.07902 18.3897 3.21967 18.5303C3.36032 18.671 3.55109 18.75 3.75 18.75H20.25C20.4489 18.75 20.6397 18.671 20.7803 18.5303C20.921 18.3897 21 18.1989 21 18C21 17.8011 20.921 17.6103 20.7803 17.4697C20.6397 17.329 20.4489 17.25 20.25 17.25Z" fill="black"/>
+                                        </svg>
+                                    </span>
+                                       <span class="menu-close-btn">
+                                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.2806 18.2194C19.3502 18.2891 19.4055 18.3718 19.4432 18.4629C19.4809 18.5539 19.5003 18.6515 19.5003 18.7501C19.5003 18.8486 19.4809 18.9462 19.4432 19.0372C19.4055 19.1283 19.3502 19.211 19.2806 19.2807C19.2109 19.3504 19.1281 19.4056 19.0371 19.4433C18.9461 19.4811 18.8485 19.5005 18.7499 19.5005C18.6514 19.5005 18.5538 19.4811 18.4628 19.4433C18.3717 19.4056 18.289 19.3504 18.2193 19.2807L11.9999 13.0604L5.78055 19.2807C5.63982 19.4214 5.44895 19.5005 5.24993 19.5005C5.05091 19.5005 4.86003 19.4214 4.7193 19.2807C4.57857 19.1399 4.49951 18.9491 4.49951 18.7501C4.49951 18.551 4.57857 18.3602 4.7193 18.2194L10.9396 12.0001L4.7193 5.78068C4.57857 5.63995 4.49951 5.44907 4.49951 5.25005C4.49951 5.05103 4.57857 4.86016 4.7193 4.71943C4.86003 4.5787 5.05091 4.49963 5.24993 4.49963C5.44895 4.49963 5.63982 4.5787 5.78055 4.71943L11.9999 10.9397L18.2193 4.71943C18.36 4.5787 18.5509 4.49963 18.7499 4.49963C18.949 4.49963 19.1398 4.5787 19.2806 4.71943C19.4213 4.86016 19.5003 5.05103 19.5003 5.25005C19.5003 5.44907 19.4213 5.63995 19.2806 5.78068L13.0602 12.0001L19.2806 18.2194Z" fill="black"/>
+</svg>
+
+                                    </span>
+                                       Menu
+                                   </button>
+                               </nav>
+                               <div class="collapse mega-menu-div" id="navbarToggleExternalContent">
+                                   <div class="main-menu-div">
+                                       <div class="menu-list-div">
+                                           <ul class="nav flex-column header-menu-ul">
+
+                                               <li class="nav-item dropend">
+                                                   <a class="nav-link dropdown-toggle m-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                       Models
+                                                       <span class="ar-icon">
+                                                           <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1.53068 0.969322L9.03068 8.46932C9.10041 8.53898 9.15573 8.6217 9.19347 8.71274C9.23121 8.80379 9.25064 8.90139 9.25064 8.99995C9.25064 9.09851 9.23121 9.19611 9.19347 9.28715C9.15573 9.3782 9.10041 9.46092 9.03068 9.53057L1.53068 17.0306C1.38995 17.1713 1.19907 17.2504 1.00005 17.2504C0.801028 17.2504 0.610156 17.1713 0.469425 17.0306C0.328695 16.8898 0.249634 16.699 0.249634 16.4999C0.249634 16.3009 0.328695 16.1101 0.469425 15.9693L7.43974 8.99995L0.469425 2.03057C0.399743 1.96089 0.344468 1.87817 0.306756 1.78712C0.269044 1.69608 0.249634 1.59849 0.249634 1.49995C0.249634 1.4014 0.269044 1.30382 0.306756 1.21278C0.344468 1.12173 0.399743 1.03901 0.469425 0.969322C0.539108 0.899641 0.621834 0.844366 0.712878 0.806654C0.803923 0.768942 0.901505 0.749531 1.00005 0.749531C1.0986 0.749531 1.19618 0.768942 1.28722 0.806654C1.37827 0.844366 1.46099 0.899641 1.53068 0.969322Z" fill="black"/>
+                                                           </svg>
+                                                       </span>
+                                                   </a>
+                                                   <ul class="dropdown-menu">
+                                                       <li>
+                                                           <div class="menu-list-div-2">
+                                                               <div class="menu-tab">
+                                                                   <ul class="nav">
+                                                                       <li class="nav-item dropend">
+                                                                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                               SUVs
+                                                                               <span class="ar-icon">
+                                                                                   <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                <path d="M1.53068 0.969322L9.03068 8.46932C9.10041 8.53898 9.15573 8.6217 9.19347 8.71274C9.23121 8.80379 9.25064 8.90139 9.25064 8.99995C9.25064 9.09851 9.23121 9.19611 9.19347 9.28715C9.15573 9.3782 9.10041 9.46092 9.03068 9.53057L1.53068 17.0306C1.38995 17.1713 1.19907 17.2504 1.00005 17.2504C0.801028 17.2504 0.610156 17.1713 0.469425 17.0306C0.328695 16.8898 0.249634 16.699 0.249634 16.4999C0.249634 16.3009 0.328695 16.1101 0.469425 15.9693L7.43974 8.99995L0.469425 2.03057C0.399743 1.96089 0.344468 1.87817 0.306756 1.78712C0.269044 1.69608 0.249634 1.59849 0.249634 1.49995C0.249634 1.4014 0.269044 1.30382 0.306756 1.21278C0.344468 1.12173 0.399743 1.03901 0.469425 0.969322C0.539108 0.899641 0.621834 0.844366 0.712878 0.806654C0.803923 0.768942 0.901505 0.749531 1.00005 0.749531C1.0986 0.749531 1.19618 0.768942 1.28722 0.806654C1.37827 0.844366 1.46099 0.899641 1.53068 0.969322Z" fill="black"/>
+                                                                                </svg>
+                                                                               </span>
+                                                                           </a>
+                                                                           <ul class="dropdown-menu">
+                                                                               <li>
+                                                                                   <div class="menu-sub-div">
+                                                                                       <div class="menu-car-img">
+                                                                                           <div class="row">
+                                                                                               <div class="col-6">
+                                                                                                   <div class="menu-box">
+                                                                                                       <a href="{{ url('/fengon-500') }}">
+                                                                                                           <img src="{{ asset('images/menu-img/fengon500.png') }}" class="img-fluid" width="100%"/>
+                                                                                                           <p>
+                                                                                                               Fengon 500
+                                                                                                           </p>
+                                                                                                       </a>
+                                                                                                   </div>
+                                                                                               </div>
+                                                                                               <!--                                                           <div class="col-md-6">
+                                                               <div class="menu-box">
+                                                                   <a href="{{ url('/fengon-580') }}">
+                                                                       <img src="{{ asset('images/menu-img/fengon580.png') }}" class="img-fluid" width="100%"/>
+                                                                       <p>
+                                                                           Fengon 580
+                                                                       </p>
+                                                                   </a>
+                                                               </div>
+                                                           </div>-->
+                                                                                               <div class="col-6">
+                                                                                                   <div class="menu-box">
+                                                                                                       <a href="{{ url('/fengon-600') }}">
+                                                                                                           <img src="{{ asset('images/menu-img/fengon600.png') }}" class="img-fluid" width="100%"/>
+                                                                                                           <p>
+                                                                                                               Fengon 600
+                                                                                                           </p>
+                                                                                                       </a>
+                                                                                                   </div>
+                                                                                               </div>
+                                                                                               <!--                                                           <div class="col-md-6">
+                                                               <div class="menu-box">
+                                                                   <a href="{{ url('/fengon-ix5') }}">
+                                                                       <img src="{{ asset('images/menu-img/fengonix5.png') }}" class="img-fluid" width="100%"/>
+                                                                       <p>
+                                                                           Fengon ix5
+                                                                       </p>
+                                                                   </a>
+                                                               </div>
+                                                           </div>-->
+                                                                                               <div class="col-6">
+                                                                                                   <div class="menu-box">
+                                                                                                       <a href="{{ url('/fengon-ix7') }}">
+                                                                                                           <img src="{{ asset('images/menu-img/fengonix7.png') }}" class="img-fluid" width="100%"/>
+                                                                                                           <p>
+                                                                                                               Fengon ix7
+                                                                                                           </p>
+                                                                                                       </a>
+                                                                                                   </div>
+                                                                                               </div>
+
+                                                                                           </div>
+                                                                                       </div>
+                                                                                   </div>
+                                                                               </li>
+
+                                                                           </ul>
+                                                                       </li>
+                                                                       <li class="nav-item dropend">
+                                                                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                               Commercial Vehicles
+                                                                               <span class="ar-icon">
+                                                                                   <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                <path d="M1.53068 0.969322L9.03068 8.46932C9.10041 8.53898 9.15573 8.6217 9.19347 8.71274C9.23121 8.80379 9.25064 8.90139 9.25064 8.99995C9.25064 9.09851 9.23121 9.19611 9.19347 9.28715C9.15573 9.3782 9.10041 9.46092 9.03068 9.53057L1.53068 17.0306C1.38995 17.1713 1.19907 17.2504 1.00005 17.2504C0.801028 17.2504 0.610156 17.1713 0.469425 17.0306C0.328695 16.8898 0.249634 16.699 0.249634 16.4999C0.249634 16.3009 0.328695 16.1101 0.469425 15.9693L7.43974 8.99995L0.469425 2.03057C0.399743 1.96089 0.344468 1.87817 0.306756 1.78712C0.269044 1.69608 0.249634 1.59849 0.249634 1.49995C0.249634 1.4014 0.269044 1.30382 0.306756 1.21278C0.344468 1.12173 0.399743 1.03901 0.469425 0.969322C0.539108 0.899641 0.621834 0.844366 0.712878 0.806654C0.803923 0.768942 0.901505 0.749531 1.00005 0.749531C1.0986 0.749531 1.19618 0.768942 1.28722 0.806654C1.37827 0.844366 1.46099 0.899641 1.53068 0.969322Z" fill="black"/>
+                                                                                </svg>
+                                                                               </span>
+                                                                           </a>
+                                                                           <ul class="dropdown-menu">
+                                                                               <li>
+                                                                                   <div class="menu-sub-div">
+                                                                                        <div class="menu-car-img">
+                                                                                            <div class="row">
+                                                                                                <div class="col-6">
+                                                                                                    <div class="menu-box">
+                                                                                                        <a href="{{ url('/cv-c31') }}">
+                                                                                                            <img src="{{ asset('images/menu-img/dfskc31.png') }}" class="img-fluid" width="100%"/>
+                                                                                                            <p>
+                                                                                                                DFSK C31
+                                                                                                            </p>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-6">
+                                                                                                    <div class="menu-box">
+                                                                                                        <a href="{{ url('/cv-c35') }}">
+                                                                                                            <img src="{{ asset('images/menu-img/dfskc35.png') }}" class="img-fluid" width="100%"/>
+                                                                                                            <p>
+                                                                                                                DFSK C35
+                                                                                                            </p>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-6">
+                                                                                                    <div class="menu-box">
+                                                                                                        <a href="{{ url('/cv-c32') }}">
+                                                                                                            <img src="{{ asset('images/menu-img/dfskc32.png') }}" class="img-fluid" width="100%"/>
+                                                                                                            <p>
+                                                                                                                DFSK C32
+                                                                                                            </p>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-6">
+                                                                                                    <div class="menu-box">
+                                                                                                        <a href="{{ url('/k01h') }}">
+                                                                                                            <img src="{{ asset('images/menu-img/dfskk01h.png') }}" class="img-fluid" width="100%"/>
+                                                                                                            <p>
+                                                                                                                DFSK K01H
+                                                                                                            </p>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                   </div>
+                                                                               </li>
+
+                                                                           </ul>
+                                                                       </li>
+
+                                                                   </ul>
+                                                               </div>
+                                                           </div>
+                                                       </li>
+                                                   </ul>
+                                               </li>
+                                               <li><a href="{{ url('/about-us') }}">About Us</a></li>
+                                               <li><a href="#">Blogs</a></li>
+                                               <li><a href="{{ url('/after-sales') }}">Aftersales</a></li>
+                                               <!--                                               <li><a href="#">Fleets</a></li>-->
+                                               <li><a href="{{ url('/offers') }}">Offers</a></li>
+                                               <li><a href="#">Contact Us</a></li>
+                                           </ul>
+                                       </div>
+
+
+                                   </div>
+                               </div>
+                               {{--<nav class="navbar">
+                                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                                   <span class="menu-line-btn">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M21 12C21 12.1989 20.921 12.3897 20.7803 12.5303C20.6397 12.671 20.4489 12.75 20.25 12.75H3.75C3.55109 12.75 3.36032 12.671 3.21967 12.5303C3.07902 12.3897 3 12.1989 3 12C3 11.8011 3.07902 11.6103 3.21967 11.4697C3.36032 11.329 3.55109 11.25 3.75 11.25H20.25C20.4489 11.25 20.6397 11.329 20.7803 11.4697C20.921 11.6103 21 11.8011 21 12ZM3.75 6.75H20.25C20.4489 6.75 20.6397 6.67098 20.7803 6.53033C20.921 6.38968 21 6.19891 21 6C21 5.80109 20.921 5.61032 20.7803 5.46967C20.6397 5.32902 20.4489 5.25 20.25 5.25H3.75C3.55109 5.25 3.36032 5.32902 3.21967 5.46967C3.07902 5.61032 3 5.80109 3 6C3 6.19891 3.07902 6.38968 3.21967 6.53033C3.36032 6.67098 3.55109 6.75 3.75 6.75ZM20.25 17.25H3.75C3.55109 17.25 3.36032 17.329 3.21967 17.4697C3.07902 17.6103 3 17.8011 3 18C3 18.1989 3.07902 18.3897 3.21967 18.5303C3.36032 18.671 3.55109 18.75 3.75 18.75H20.25C20.4489 18.75 20.6397 18.671 20.7803 18.5303C20.921 18.3897 21 18.1989 21 18C21 17.8011 20.921 17.6103 20.7803 17.4697C20.6397 17.329 20.4489 17.25 20.25 17.25Z" fill="black"/>
@@ -24,23 +213,23 @@
                                    </button>
                                </nav>
                                <div class="collapse mega-menu-div" id="navbarToggleExternalContent">
-                                   <div class="row">
-                                       <div class="col-md-3">
+                                   <div class="main-menu-div">
+                                       <div class="menu-list-div">
                                            <ul class="nav flex-column header-menu-ul">
                                                <li class="nav-item">
-                                                   <a class="nav-link active" data-bs-toggle="pill" href="#header-model-tab">
+                                                   <a class="nav-link custom-sub-link" data-bs-toggle="pill" href="#header-model-tab">
                                                        Models
                                                    </a>
                                                </li>
                                                <li><a href="{{ url('/about-us') }}">About Us</a></li>
                                                <li><a href="#">Blogs</a></li>
                                                <li><a href="{{ url('/after-sales') }}">Aftersales</a></li>
-<!--                                               <li><a href="#">Fleets</a></li>-->
+                                               <!--                                               <li><a href="#">Fleets</a></li>-->
                                                <li><a href="{{ url('/offers') }}">Offers</a></li>
                                                <li><a href="#">Contact Us</a></li>
                                            </ul>
                                        </div>
-                                       <div class="col-md-3">
+                                       <div class="menu-list-div-2 d-none">
                                            <div class="tab-content h-100">
                                                <div class="menu-tab tab-pane h-100 active" id="header-model-tab">
                                                    <ul class="nav">
@@ -70,7 +259,7 @@
                                                </div>
                                            </div>
                                        </div>
-                                       <div class="col-md-6">
+                                       <div class="menu-sub-div d-none">
                                            <div class="tab-content h-100">
                                                <div class="tab-pane sub-menu-div active" id="header-tab-1">
                                                    <div class="menu-car-img">
@@ -85,7 +274,7 @@
                                                                    </a>
                                                                </div>
                                                            </div>
-<!--                                                           <div class="col-md-6">
+                                                           <!--                                                           <div class="col-md-6">
                                                                <div class="menu-box">
                                                                    <a href="{{ url('/fengon-580') }}">
                                                                        <img src="{{ asset('images/menu-img/fengon580.png') }}" class="img-fluid" width="100%"/>
@@ -105,7 +294,7 @@
                                                                    </a>
                                                                </div>
                                                            </div>
-<!--                                                           <div class="col-md-6">
+                                                           <!--                                                           <div class="col-md-6">
                                                                <div class="menu-box">
                                                                    <a href="{{ url('/fengon-ix5') }}">
                                                                        <img src="{{ asset('images/menu-img/fengonix5.png') }}" class="img-fluid" width="100%"/>
@@ -180,8 +369,7 @@
                                            </div>
                                        </div>
                                    </div>
-
-                               </div>
+                               </div>--}}
                            </div>
                        </div>
                        <div class="col-md-2">
